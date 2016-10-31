@@ -6,7 +6,7 @@ include('includes/header.php');
 <?php include('includes/callback.php') ?>
 
 <div id="prices">
-	
+
 	<h1>Prices</h1>
 
 	<h2>Ovens</h2>
@@ -19,7 +19,7 @@ include('includes/header.php');
 
 				<td>Single Oven</td>
 
-				<td class="price">&pound;45</td>
+				<td class="price">&pound;50</td>
 
 			</tr>
 
@@ -27,7 +27,7 @@ include('includes/header.php');
 
 				<td>Double Oven</td>
 
-				<td>&pound;55</td>
+				<td>&pound;60</td>
 
 			</tr>
 
@@ -35,7 +35,7 @@ include('includes/header.php');
 
 				<td>Double Oven Range</td>
 
-				<td>&pound;55</td>
+				<td>&pound;65</td>
 
 			</tr>
 
@@ -43,7 +43,7 @@ include('includes/header.php');
 
 				<td>Triple Oven Range</td>
 
-				<td>&pound;65</td>
+				<td>&pound;75</td>
 
 			</tr>
 
@@ -69,7 +69,7 @@ include('includes/header.php');
 
 				<td>4 Burner Hobs</td>
 
-				<td class="price">&pound;10</td>
+				<td class="price">&pound;15</td>
 
 			</tr>
 
@@ -77,15 +77,15 @@ include('includes/header.php');
 
 				<td>5+ Burner Hobs</td>
 
-				<td>&pound;15</td>
+				<td>&pound;20</td>
 
 			</tr>
-			
+
 			<tr>
 
 				<td>8 Burner Hobs</td>
 
-				<td>&pound;20</td>
+				<td>&pound;25</td>
 
 			</tr>
 
@@ -103,7 +103,7 @@ include('includes/header.php');
 
 				<td>60cm Extractor</td>
 
-				<td class="price">&pound;10</td>
+				<td class="price">&pound;15</td>
 
 			</tr>
 
@@ -111,14 +111,14 @@ include('includes/header.php');
 
 				<td>Double/Range Extractor</td>
 
-				<td>&pound;15</td>
+				<td>&pound;20</td>
 
 			</tr>
 
 		</tbody>
 
 	</table>
-	
+
 	<h2>Fridge &amp; Freezer Valets</h2>
 
 	<table class="priceList">
@@ -203,7 +203,7 @@ include('includes/header.php');
 
 			<tr>
 
-				<td>BBQ’s from</td>
+				<td>BBQ's from</td>
 
 				<td class="price">&pound;40</td>
 
@@ -213,7 +213,7 @@ include('includes/header.php');
 
 				<td>Replacement bulbs</td>
 
-				<td>&pound;3.50</td>
+				<td>&pound;3</td>
 
 			</tr>
 
@@ -230,5 +230,5 @@ include('includes/header.php');
 	</table>
 
 </div>
-	
+
 <?php include('includes/footer.php'); ?>
