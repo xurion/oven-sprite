@@ -5,194 +5,198 @@ include('includes/header.php');
 
 <?php include('includes/callback.php') ?>
 
-<div id="ovenCleaning">
-	
-	<h1>Oven cleaning</h1>
+    <div id="ovenCleaning">
 
-	<p class="first">Oven Sprite are your independent domestic oven cleaning specialist.</p>
+        <h1>Oven cleaning</h1>
 
-	<p>We provide a professional oven cleaning service for the South East Essex area including Southend, Rochford, Rayleigh, Leigh, Westcliff, Hadleigh, Hockley, Canvey, Benfleet, Basildon, Wickford, Billericay,Brentwood, Pitsea, Corringham, Thurrock, Tilbury, Grays, Orsett and Stanford Le Hope.</p>
-	
-	<p>At Oven Sprite we only use bio-degradable odour free oven cleaning products.  First the detachable parts of your oven are removed and cleaned in a special dip tank in our professionally equipped van. The rest of your oven is then thoroughly cleaned, removing all the grease, burnt on carbon, fat and other dirt.</p>
+        <p class="first">Oven Sprite are your independent domestic oven cleaning specialist.</p>
 
-	<div id="beforeAndAfter"><img src="images/before-after.jpg" alt="" /></div>
+        <p>We provide a professional oven cleaning service for the South East Essex area including Southend, Rochford,
+            Rayleigh, Leigh, Westcliff, Hadleigh, Hockley, Canvey, Benfleet, Basildon, Wickford, Billericay,Brentwood,
+            Pitsea, Corringham, Thurrock, Tilbury, Grays, Orsett and Stanford Le Hope.</p>
 
-	<p>A typical oven clean takes 1.5 - 2 hours depending on the oven size, longer for range style ovens.</p>
+        <p>At Oven Sprite we only use bio-degradable odour free oven cleaning products. First the detachable parts of
+            your oven are removed and cleaned in a special dip tank in our professionally equipped van. The rest of your
+            oven is then thoroughly cleaned, removing all the grease, burnt on carbon, fat and other dirt.</p>
 
-	<p>We can clean ovens, ranges, hobs, extractors and microwaves.</p>
+        <div id="beforeAndAfter"><img src="images/before-after.jpg" alt=""></div>
 
-	<p>Call <b><?=$phoneNumber?></b> for a free quotation.</p>
-	
-	<h2>Prices</h1>
+        <p>A typical oven clean takes 1.5 - 2 hours depending on the oven size, longer for range style ovens.</p>
 
-	<table class="priceList">
+        <p>We can clean ovens, ranges, hobs, extractors and microwaves.</p>
 
-		<tbody>
+        <p>Call <b><?= $phoneNumber ?></b> for a free quotation.</p>
 
-			<tr>
+        <h2>Prices</h2>
 
-				<td>Single Oven</td>
+        <table class="priceList">
 
-				<td class="price">&pound;45</td>
+            <tbody>
 
-			</tr>
+            <tr>
 
-			<tr>
+                <td>Single Oven</td>
 
-				<td>Double Oven</td>
+                <td class="price">&pound;50</td>
 
-				<td>&pound;55</td>
+            </tr>
 
-			</tr>
+            <tr>
 
-			<tr>
+                <td>Double Oven</td>
 
-				<td>Double Oven Range</td>
+                <td>&pound;60</td>
 
-				<td>&pound;55</td>
+            </tr>
 
-			</tr>
+            <tr>
 
-			<tr>
+                <td>Double Oven Range</td>
 
-				<td>Triple Oven Range</td>
+                <td>&pound;65</td>
 
-				<td>&pound;65</td>
+            </tr>
 
-			</tr>
+            <tr>
 
-			<tr>
+                <td>Triple Oven Range</td>
 
-				<td>Four Oven Range</td>
+                <td>&pound;75</td>
 
-				<td>&pound;75</td>
+            </tr>
 
-			</tr>
+            <tr>
 
-		</tbody>
+                <td>Four Oven Range</td>
 
-	</table>
+                <td>&pound;75</td>
 
-	<h3>Hobs</h3>
+            </tr>
 
-	<table class="priceList">
+            </tbody>
 
-		<tbody>
+        </table>
 
-			<tr>
+        <h3>Hobs</h3>
 
-				<td>4 Burner Hobs</td>
+        <table class="priceList">
 
-				<td class="price">&pound;10</td>
+            <tbody>
 
-			</tr>
+            <tr>
 
-			<tr>
+                <td>4 Burner Hobs</td>
 
-				<td>5+ Burner Hobs</td>
+                <td class="price">&pound;15</td>
 
-				<td>&pound;15</td>
+            </tr>
 
-			</tr>
-			
-			<tr>
+            <tr>
 
-				<td>8 Burner Hobs</td>
+                <td>5+ Burner Hobs</td>
 
-				<td>&pound;20</td>
+                <td>&pound;20</td>
 
-			</tr>
+            </tr>
 
-		</tbody>
+            <tr>
 
-	</table>
+                <td>8 Burner Hobs</td>
 
-	<h3>Extractors</h3>
+                <td>&pound;25</td>
 
-	<table class="priceList">
+            </tr>
 
-		<tbody>
+            </tbody>
 
-			<tr>
+        </table>
 
-				<td>60cm Extractor</td>
+        <h3>Extractors</h3>
 
-				<td class="price">&pound;10</td>
+        <table class="priceList">
 
-			</tr>
+            <tbody>
 
-			<tr>
+            <tr>
 
-				<td>Double/Range Extractor</td>
+                <td>60cm Extractor</td>
 
-				<td>&pound;15</td>
+                <td class="price">&pound;15</td>
 
-			</tr>
+            </tr>
 
-		</tbody>
+            <tr>
 
-	</table>
-	
-	<h3>Microwaves</h3>
+                <td>Double/Range Extractor</td>
 
-	<table class="priceList">
+                <td>&pound;20</td>
 
-		<tbody>
+            </tr>
 
-			<tr>
+            </tbody>
 
-				<td>Standard</td>
+        </table>
 
-				<td class="price">&pound;15</td>
+        <h3>Microwaves</h3>
 
-			</tr>
+        <table class="priceList">
 
-			<tr>
+            <tbody>
 
-				<td>Combi</td>
+            <tr>
 
-				<td>&pound;25</td>
+                <td>Standard</td>
 
-			</tr>
+                <td class="price">&pound;15</td>
 
-		</tbody>
+            </tr>
 
-	</table>
+            <tr>
 
-	<h3>Others</h3>
+                <td>Combi</td>
 
-	<table class="priceList">
+                <td>&pound;25</td>
 
-		<tbody>
+            </tr>
 
-			<tr>
+            </tbody>
 
-				<td>BBQ’s from</td>
+        </table>
 
-				<td class="price">&pound;40</td>
+        <h3>Others</h3>
 
-			</tr>
+        <table class="priceList">
 
-			<tr>
+            <tbody>
 
-				<td>Replacement bulbs</td>
+            <tr>
 
-				<td>&pound;3.50</td>
+                <td>BBQ's from</td>
 
-			</tr>
+                <td class="price">&pound;40</td>
 
-			<tr>
+            </tr>
 
-				<td>BBQ Racks</td>
+            <tr>
 
-				<td>&pound;10</td>
+                <td>Replacement bulbs</td>
 
-			</tr>
+                <td>&pound;3</td>
 
-		</tbody>
+            </tr>
 
-	</table>
-	
-</div>
+            <tr>
+
+                <td>BBQ Racks</td>
+
+                <td>&pound;10</td>
+
+            </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
 
 <?php include('includes/footer.php'); ?>
