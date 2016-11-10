@@ -47,14 +47,6 @@ include('includes/header.php');
 
 			</tr>
 
-			<tr>
-
-				<td>Four Oven Range</td>
-
-				<td>&pound;75</td>
-
-			</tr>
-
 		</tbody>
 
 	</table>
